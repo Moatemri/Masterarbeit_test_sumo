@@ -55,7 +55,7 @@ try:
                 x, y = traci.vehicle.getPosition(vid)
                 distance = math.sqrt((x - intersection_x) ** 2 + (y - intersection_y) ** 2)
                 speed_mps = traci.vehicle.getSpeed(vid)
-                speed_kmh = speed_mps * 1
+                speed_kmh = speed_mps * 3.6
                 prev_speed = prev_speeds.get(vid, 0.0)
                 acceleration = speed_mps - prev_speed
                 prev_speeds[vid] = speed_mps
