@@ -13,7 +13,7 @@ sys.path.append(tools)
 
 # SUMO config
 sumoBinary = os.path.join(os.environ['SUMO_HOME'], 'bin', 'sumo-gui.exe')
-sumoConfig = r"D:\test_sumo_1\Test_2_Meeting.sumocfg"
+sumoConfig = r"D:\repo\Masterarbeit_test_sumo\Test_2_Meeting.sumocfg"
 sumoCmd = [sumoBinary, "-c", sumoConfig]
 
 # Start simulation
