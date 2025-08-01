@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-20 17:43:34 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="aggressiv" minGap="2.30" carFollowModel="IDM" accel="1.5" decel="2" tau="2">
+        <param key="junctionModel.visibility" value="10"/>
+    </vType>
+    <vType id="vorsichtig" length="5.00" minGap="2.50" maxSpeed="13.90" impatience="0.30" guiShape="passenger" lcStrategic="1" lcCooperative="0.5" lcAssertive="1" lcTimeToImpatience="30" carFollowModel="IDM" accel="1.5" decel="2" tau="2">
+        <param key="junctionModel.visibility" value="10"/>
+    </vType>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_0" type="vorsichtig" depart="0.00" departPos="2.00" from="E0" to="E1"/>
+    <trip id="t_1" type="aggressiv" depart="0.00" departPos="55.00" from="E2" to="E3"/>
+</routes>
